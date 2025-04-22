@@ -47,9 +47,9 @@ nav ul li a {
   font-size: 1rem;
 }
 
-/* 히어로 섹션 스타일 */
+/* Hero 섹션 스타일: FPV 드론 이미지를 배경으로 추가 */
 .hero {
-  background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+  background: url('fpv-drone-image.jpg') no-repeat center center/cover;  /* 실제 FPV 드론 이미지를 여기에 사용 */
   text-align: center;
   color: white;
   padding: 100px 20px;
