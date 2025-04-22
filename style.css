@@ -47,7 +47,7 @@ nav ul li a {
   font-size: 1rem;
 }
 
-/* Hero 섹션 스타일: FPV 드론 이미지를 배경으로 추가 */
+/* Hero 섹션 스타일 */
 .hero {
   background: url('fpv-drone-image.jpg') no-repeat center center/cover;  /* 실제 FPV 드론 이미지를 여기에 사용 */
   text-align: center;
@@ -76,6 +76,36 @@ nav ul li a {
 
 .cta-button:hover {
   background-color: #ff4500;
+}
+
+/* 업로드 섹션 스타일 */
+#upload {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#upload form {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#upload input[type="file"] {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#upload button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#upload button:hover {
+  background-color: #45a049;
 }
 
 /* 섹션 스타일 */
